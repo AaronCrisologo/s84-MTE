@@ -23,12 +23,12 @@ h1, h2, h3 {
   line-height: 1.2;
 }
 
-/* Anchor offset so the sticky navbar never covers a section heading */
-section[id], header[id] {
-  scroll-margin-top: 4.75rem;
-}
+/* Anchor offset so the sticky navbar never covers the target element.
 
-html { scroll-behavior: smooth; }
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 4.75rem;
+}
 
 .text-soft { color: var(--ink-soft) !important; }
 .text-accent { color: var(--accent) !important; }
