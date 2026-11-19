@@ -105,6 +105,20 @@ html { scroll-behavior: smooth; }
 .stat-num { display: block; font-size: 1.9rem; font-weight: 700; }
 .stat-label { display: block; font-size: .8rem; color: #cbd5e1; }
 
+.hero-figure { margin: 0; }
+.hero-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 1.5rem;
+  filter: drop-shadow(0 24px 48px rgba(2, 6, 23, .45));
+}
+
+.hero-stats {
+  max-width: 40rem;
+  margin: 3.5rem auto 0;
+}
+
 /* ---------- Sections ---------- */
 .section { padding: 5rem 0; }
 .section-alt { background: var(--surface-alt); }
